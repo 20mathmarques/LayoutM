@@ -19,12 +19,8 @@ function MenuDesktop() {
         <img src={Logo} width="147px" height="88px" />
 
         <div className="searchInput">
-          <TextField
-            className="BtnField"
-            id="filled-basic"
-            label="O que Você Busca?"
-            variant="filled"
-          />
+        <input className="inputSearchHeaderDesktop" placeholder="O que você Busca?"></input>
+
           <Button className="BtnSearch" variant="contained">
             Buscar
           </Button>

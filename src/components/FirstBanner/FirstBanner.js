@@ -142,7 +142,7 @@ function FirstBanner() {
           {imageDesktop.map((product, index) => (
             <div
               key={product.id}
-              className={`carousel-item ${
+              className={`carousel-item-first-banner ${
                 index === currentIndex ? "active" : ""
               }`}
             >
