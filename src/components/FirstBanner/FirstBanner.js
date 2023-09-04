@@ -76,8 +76,6 @@ function FirstBanner() {
     setCurrentIndex(index);
   };
 
-
-  
   const nextSlideMobile = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === imageDesktop.length - 1 ? 0 : prevIndex + 1
@@ -102,13 +100,8 @@ function FirstBanner() {
     setCurrentIndex(index);
   };
 
-  
-
-  return (
-
-    SizePage <=680 ?
-      
-      <div>
+  return SizePage <= 680 ? (
+    <div>
       <div className="product-carousel">
         <button className="carousel-button prev" onClick={prevSlideMobile}>
           &#10094;
@@ -131,9 +124,8 @@ function FirstBanner() {
       </div>
       <div className="dots-container">{dotsMobile}</div>
     </div>
-      :
-    
-      <div>
+  ) : (
+    <div>
       <div className="product-carousel">
         <button className="carousel-button prev" onClick={prevSlide}>
           &#10094;
@@ -156,7 +148,6 @@ function FirstBanner() {
       </div>
       <div className="dots-container">{dots}</div>
     </div>
-    
   );
 }
 
