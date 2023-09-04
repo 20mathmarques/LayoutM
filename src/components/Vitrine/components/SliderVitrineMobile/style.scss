@@ -1,0 +1,93 @@
+.BtnColors {
+  width: 27px;
+  height: 27px;
+  border-radius: 4px;
+}
+
+.PriceProduct {
+  font-family: "TitilliumWeb";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30.24px;
+  color: #353535;
+}
+
+.NameProduct {
+  font-family: "TitilliumWeb";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.34px;
+  color: #353535;
+}
+
+.DescProduct {
+  font-family: "TitilliumWeb";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.25px;
+  color: #353535;
+}
+
+.product-carousel-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  overflow: hidden; /* Importante para ocultar itens fora da exibição */
+  position: relative;
+}
+
+.carousel-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  // position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.product-content-mobile {
+  display: flex;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  width: 308px;
+}
+
+.carousel-item-mobile {
+  flex: 0 0 100%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  transition: 0.3 ease-in-out;
+  transform: translateX(0%);
+}
+
+.carousel-item-mobile.active {
+  transform: translateX(-100%); /* Altere a posição de acordo com o índice */
+}
+
+.carousel-item-mobile .ImageBannerSlider {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.InformationsProduct {
+  text-align: initial;
+  margin: 10px;
+}
+
+.BtnAddProduct {
+  display: flex;
+  justify-content: center;
+  background-color: #faa500;
+  font-family: "TitilliumWeb";
+  font-weight: 400;
+  width: 254px;
+  height: 35px;
+  border-radius: 4px;
+  align-items: center;
+  color: #ffff;
+  margin-top: 5px;
+}

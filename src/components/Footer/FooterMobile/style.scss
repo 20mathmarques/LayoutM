@@ -1,0 +1,35 @@
+
+
+.SecondLineFooterMobile{
+    background-color: #353535;
+    display: grid;
+    height: auto;
+}
+
+
+.TittleAccordion{
+    font-family: "TitilliumWeb" !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+
+}
+
+.SubTittleAccordion{
+    font-family: 'TitilliumWeb' !important;
+    line-height: 25px !important;
+    font-size: 14px !important;
+}
+
+.PlusIcon{
+    color:#353535;
+    height: 16px !important;
+}
+
+.divNetWorkMobile{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 5%;
+}

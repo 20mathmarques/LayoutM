@@ -1,0 +1,41 @@
+.FirstLine{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.SecondLine{
+    background-color: #353535;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+}
+
+.TittleMenuFooter{
+    font-family: "TitilliumWeb";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    list-style-type: none;
+    margin-bottom: 10%;
+}
+
+.ItemFooter{
+    font-family: "TitilliumWeb";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+
+
+}
+
+.group{
+    list-style-type: none;
+   
+}
+
+.imgs{
+    margin: 5px;
+}

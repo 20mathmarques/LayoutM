@@ -1,0 +1,115 @@
+.BtnColors{
+    width: 27px;
+    height: 27px;
+    border-radius:4px ;
+}
+
+.PriceProduct{
+    font-family: 'TitilliumWeb';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30.24px;
+    color: #353535;
+
+}
+
+.NameProduct{
+    font-family: 'TitilliumWeb';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: #353535;
+
+}
+
+.DescProduct{
+    font-family: 'TitilliumWeb';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.25px; 
+    color: #353535;
+}
+
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: transparent;
+         border: 1px solid #FAA500;
+  
+  }
+  
+  .dot.active {
+    background-color: #FAA500;
+  }
+
+  .dots-container{justify-content: center;
+    display: flex;
+}
+
+
+.product-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    overflow: hidden; /* Importante para ocultar itens fora da exibição */
+    position: relative;
+  }
+  
+  .carousel-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    // position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+
+  }
+  
+  .carousel-content {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out
+  }
+  
+  .carousel-item {
+    flex: 0 0 25%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    transition: 0.3 ease-in-out;
+    transform: translateX(0%);
+  }
+  
+  .carousel-item.active {
+  transform: translateX(-100%); /* Altere a posição de acordo com o índice */
+
+  }
+  
+  .carousel-item .ImageBannerSlider {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .DivColors{
+    display: flex;
+    align-items: baseline;
+  }
+
+  .BtnColors{
+    margin: 5px;
+    border: 2px;
+  }
+
+  .InformationsProduct{
+   text-align: initial;
+   margin: 10px;
+  }

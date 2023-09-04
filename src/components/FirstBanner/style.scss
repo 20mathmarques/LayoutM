@@ -1,0 +1,112 @@
+// .divSlider{
+//     background-color: #ffff;
+// }
+
+// .MuiMobileStepper-dotActive{
+//     background-color: #FAA500 !important;
+//     color:#FAA500;
+//     size: 8px;
+//     height: 8px;
+// }
+
+// .MuiMobileStepper-dot{
+//     background-color: transparent !important;
+//     border: 1px solid #FAA500;
+    
+//     height: 8px;
+// }
+
+// // .MuiButtonBase-root{
+// //     color: #000 !important;
+// //     margin-top: -10%;
+// // }
+
+// .MuiButton-textPrimary .MuiSvgIcon-fontSizeMedium {
+//     color: #000;
+// }
+
+// .SliderBanner{
+//     width: 1920px;
+//     height: 600px;
+// }
+
+// .ImageBannerSlider{
+//          background-repeat: no-repeat;
+// }
+
+// .slick-track{
+//     width: auto !important;
+// }
+
+// .sliderComponent{
+//     background-color: red;
+// }
+
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: transparent;
+         border: 1px solid #FAA500;
+
+  }
+  
+  .dot.active {
+    background-color: #FAA500;
+  }
+
+  .dots-container{justify-content: center;
+    display: flex;
+}
+
+
+.product-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    overflow: hidden; /* Importante para ocultar itens fora da exibição */
+    position: relative;
+  }
+  
+  .carousel-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    // position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+
+  }
+  
+  .carousel-content {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    transition: 0.3 ease-in-out;
+    transform: translateX(0%);
+  }
+  
+  .carousel-item.active {
+  transform: translateX(0%); /* Altere a posição de acordo com o índice */
+
+  }
+  
+  .carousel-item .ImageBannerSlider {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }

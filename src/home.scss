@@ -1,0 +1,59 @@
+//declarando variavel de tamanho
+$mobile: 360px;
+$tablet: 820px;
+$desktop: 1200px;
+.tittle {
+  font-family: "TitilliumWeb";
+  color: #353535;
+}
+
+
+
+
+.BodyHeader{
+  align-items: center;
+  text-align: center;
+}
+
+
+ @media  (max-width: $tablet) {
+   .Brands {
+     font-family: "TitilliumWeb";
+     color: #353535;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 36.5px;
+     text-align: center;
+     margin: 6%;
+   }
+   .whyMaestra {
+    font-family: "TitilliumWeb";
+    color: #353535;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin: 7%;
+  }
+ }
+ @media  (min-width: $desktop) {
+   .Brands {
+     font-family: "TitilliumWeb";
+     color: #353535;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 48.67px;
+     text-align: center;
+     margin: 3%;
+   }
+
+   .whyMaestra {
+    font-family: "TitilliumWeb";
+    color: #353535;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin: 5%;
+  }
+ }

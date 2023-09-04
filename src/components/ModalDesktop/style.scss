@@ -1,0 +1,92 @@
+
+.BoxModalDesktop {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+//   padding: 0%;
+  text-align: center;
+  position: fixed;
+  height: auto;
+  width: 848px;
+  border: none;
+
+}
+.BenvindoText {
+  font-family: "TitilliumWeb";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.RecebaText {
+  font-family: "TitilliumWeb";
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 5%;
+  line-height: 23px;
+}
+
+.DescontoText {
+  font-family: "TitilliumWeb";
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #6e6e6e;
+}
+
+.emaiLogo {
+  padding-top: 15%;
+  height: 29.66px;
+  width: 28px;
+}
+
+// .BannerNewsLetter {
+//  height: 300px;
+// }
+
+.BtnSendDesktop {
+  box-shadow: none !important ;
+  width: 258px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 700 !important;
+  background-color: #faa500 !important;
+  font-size: 14px;
+  font-family: "TitilliumWeb" !important;
+  text-transform: capitalize !important;
+//   margin-top: 5%;
+}
+
+.InputNewsLetterModal {
+  margin-top: 5%;
+  width: 258px;
+  height: 40px;
+  font-family: "TitilliumWeb";
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.DivBtnModalDesktop {
+  margin-top: 5%;
+}
+
+.CloseModalText {
+  font-size: 12px;
+  display: flex;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: -10%;
+  justify-content: end;
+}
+
+.GridModalDesktop{
+    display: flex;
+    align-items: center;
+    width: max-content;
+
+}
+
+.DivImageModal{
+    // margin-left: -4% !important;
+}

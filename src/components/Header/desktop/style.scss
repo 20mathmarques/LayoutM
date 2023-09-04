@@ -1,0 +1,96 @@
+.div {
+  height: 88px;
+  top: 24px;
+  background-color: #ffff;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 11px #f1f1f1;
+  margin-bottom: 11px;
+}
+
+.GroupMenu {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.GroupMenuSecond{
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 75%;
+}
+
+.SecondLineHeader {
+  background-color: #ffff;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.MuiFilledInput-root::before {
+  border-bottom: none !important;
+  text-transform: capitalize !important;
+}
+
+.MuiInputBase-root {
+  width: 565px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.BtnSearch {
+  box-shadow: none !important ;
+  height: 40px;
+  border-radius: 8px;
+  width: 119px;
+  background-color: #faa500 !important;
+  font-family: "TitilliumWeb" !important;
+  text-transform: capitalize !important;
+}
+
+.Btngroup {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  height: 21px;
+}
+
+.Btngroup-Cart {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  height: 21px;
+  border: 1px solid #faa500;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.menuTittle {
+  font-family: "TitilliumWeb" !important;
+  text-transform: capitalize !important;
+  font-weight: 400 !important;
+  font-size: 14px;
+  color: #353535 !important;
+}
+
+.menuTittle:hover {
+  background-color: #faa70049 !important;
+}
+
+.menuTittleNew {
+  font-size: 14px !important;
+  font-family: "TitilliumWeb" !important ;
+  font-weight: 700 !important;
+  color: #faa500 !important;
+  text-transform: capitalize !important;
+  text-align: center;
+}
+
+.menuTittleNew:hover {
+  background-color: #faa70049 !important;
+}

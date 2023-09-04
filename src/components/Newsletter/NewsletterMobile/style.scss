@@ -1,0 +1,39 @@
+.divNewsLetter {
+  display: flex;
+  padding: 5%;
+}
+
+.tittleNewsletter {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36.5px;
+  text-align: center;
+}
+
+.BtnSend {
+  box-shadow: none !important ;
+  height: 26px ;
+  border-radius: 8px;
+  font-weight: 700 !important;
+  background-color: #faa500 !important;
+  font-size: 14px;
+  font-family: "TitilliumWeb" !important;
+  text-transform: capitalize !important;
+}
+
+.InputNewsLetter {
+  width: 204px;
+  height: 26px;
+  font-family: "TitilliumWeb";
+  border-radius: 4px;
+  border: 1px solid #353535;
+  color: #353535;
+  align-items: center;
+  text-align: center;
+}
+
+.gridInputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

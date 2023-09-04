@@ -1,0 +1,32 @@
+//declarando variavel de tamanho
+$mobile: 360px;
+$tablet: 820px;
+$desktop: 1200px;
+
+//Mobile First
+
+.firstBanner {
+  background-color: #353535 !important;
+}
+
+@media  (max-width: $tablet) {
+  .tittleFirstBanner {
+    font-family: "TitilliumWeb";
+    color: #ffff;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+
+@media  (min-width: $desktop) {
+  .tittleFirstBanner {
+    font-family: "TitilliumWeb";
+    color: #ffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+}

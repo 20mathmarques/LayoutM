@@ -1,0 +1,42 @@
+$mobile: 360px;
+$tablet: 820px;
+$desktop: 1200px;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'TitilliumWeb';
+
+}
+
+body {
+  background-color: #FFFFFF;
+
+  @font-face {
+    font-family: 'TitilliumWeb';
+    src: url(./../fonts/TitilliumWeb-Regular.ttf);
+
+  }
+
+  @font-face{
+    
+    font-family: 'Lato';
+    src: url(./../fonts/Lato-Regular.ttf);
+  }
+
+@media(min-width: $desktop) { *::-webkit-scrollbar {
+    height: 6px;
+    background-color: #dfdfdf49;
+    border-radius: 20px;
+  
+  }
+}
+
+  @media(max-width: $mobile) { *::-webkit-scrollbar {
+   display: none;
+  
+  }
+    
+}
+}
+
